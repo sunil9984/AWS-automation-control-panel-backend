@@ -1,0 +1,22 @@
+{
+  "name": "hosting-control-panel-backend",
+  "version": "1.0.0",
+  "description": "Backend API and Queue Worker for Hosting Platform Control Panel",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-lambda": "^3.500.0",
+    "@aws-sdk/client-ssm": "^3.500.0",
+    "bullmq": "^5.1.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "ioredis": "^5.4.1",
+    "mongoose": "^8.3.1",
+    "ssh2": "^1.15.0"
+  }
+}
